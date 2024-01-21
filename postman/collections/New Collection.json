@@ -5,5 +5,162 @@
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_uid": "22125244-0cb29415-4757-4e63-8b82-7650bac67ae3"
 	},
-	"item": []
+	"item": [
+		{
+			"name": "New Request",
+			"id": "abcd0d98-8750-492c-8c6a-f8321080922e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Google",
+			"id": "1abe625c-0c77-46f9-a1fc-edc666ad2595",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "www.google.com"
+					},
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "cookie",
+						"value": "SID=fQiQ3HouawNBUKTeO-sR1CS4Oz6C4QyszPUs52GfIUklKfoNIT2ZTcXFRXIF16ZkyRFrJA.; __Secure-1PSID=fQiQ3HouawNBUKTeO-sR1CS4Oz6C4QyszPUs52GfIUklKfoN30CgOnS1X3YhJ7ajCdNYhg.; __Secure-3PSID=fQiQ3HouawNBUKTeO-sR1CS4Oz6C4QyszPUs52GfIUklKfoNEcl7Wp20jQjJEmph8QqjjQ.; HSID=ApBHOMKyzqlbYPFpC; SSID=AvCkVN-5qvpKqAzqP; APISID=EpjjfxC3ojJGc7bS/A27RRzb5Gvxj45id4; SAPISID=SHCeNIdRZ0x5NenS/AqGOwCsZFkAAegcJK; __Secure-1PAPISID=SHCeNIdRZ0x5NenS/AqGOwCsZFkAAegcJK; __Secure-3PAPISID=SHCeNIdRZ0x5NenS/AqGOwCsZFkAAegcJK; NID=511=V4g-AAddMAmQnzuObwls2KuPmM3IrIj1fi02kz0nsVnArJR7rB5tAuY4lpagPTYefOuym3kUTBztw6cNKs6SUZmjWYBBeOEJMXddqukMSzLGyEA46_bBhnh97fru-wTiVadgTJi4QLKFAiIP7ocZVWhM4x1yP1bml2k9Mc-6JCyj1kOFM134L4Co9ZXL8dkWeevjql42TC3STnqwOocECAnn9q3nHB03EYx30pzGcZ3Le0HoOm0aCuO6Y9YFJm9x1MKsAiF2I8VVjHBxe3gTtKeNCBI4kgnU4oswOZX1nRJWj878qxOKQDB5B3tNUvsswGxLaYuax4CyGZQiLIuq7Giw4dWtvB2o_FupZp5sEpoANqo7WZhN9lyH-QSIIlOZzsu1z-JwJGBxtjCHiy6qtIMDt-mJz2zbSRDCUO3872BJ5OGMkwYH; __Secure-1PSIDTS=sidts-CjEBPVxjSqVDnx50YJoLB1K8Q3bHEGHP0tQkWTYjKBRb-F9MuV4RmHkwY1AsatgnyAedEAA; __Secure-3PSIDTS=sidts-CjEBPVxjSqVDnx50YJoLB1K8Q3bHEGHP0tQkWTYjKBRb-F9MuV4RmHkwY1AsatgnyAedEAA; 1P_JAR=2024-01-21-05; AEC=Ae3NU9N4RwfMACUO95zX7L3OpSFt6QbrxC2MEPN1kfrmZL6x7FdjxqrFnQ; SIDCC=ABTWhQFGOq17aYGmWITqXiJf_XckHDg8Pl0qxRZJ9DGmBvB3dPBNNZFY7hB0SzLQaDJ9abxMGqfQ; __Secure-1PSIDCC=ABTWhQErRrWJ5LcZv_nUM2nQJWKB_B-PBMWfFpvtm7xeruLCiFH3Xwt4xtW3Son4D_w8hHuNFys; __Secure-3PSIDCC=ABTWhQHPE8gKL7NaYK7dYJHQ2RYNoZCvwdToc6mccBBCGErSOVol8U-6Lhug9Iux-8A5SpeVMss"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.google.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\""
+					},
+					{
+						"key": "sec-ch-ua-arch",
+						"value": "\"x86\""
+					},
+					{
+						"key": "sec-ch-ua-bitness",
+						"value": "\"64\""
+					},
+					{
+						"key": "sec-ch-ua-full-version",
+						"value": "\"120.0.6099.225\""
+					},
+					{
+						"key": "sec-ch-ua-full-version-list",
+						"value": "\"Not_A Brand\";v=\"8.0.0.0\", \"Chromium\";v=\"120.0.6099.225\", \"Google Chrome\";v=\"120.0.6099.225\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-model",
+						"value": "\"\""
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-ch-ua-platform-version",
+						"value": "\"10.0.0\""
+					},
+					{
+						"key": "sec-ch-ua-wow64",
+						"value": "?0"
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-client-data",
+						"value": "CJe2yQEIpLbJAQipncoBCIryygEIkqHLAQiFoM0BCI/hzQEIr+nNAQjg7s0BCIPwzQEIhfDNAQjA8c0BCLDyzQEI+/PNAQiQ9c0BGOfTzQEYp+rNARj68s0B"
+					}
+				],
+				"url": {
+					"raw": "https://www.google.com/complete/search?q&cp=0&client=gws-wiz&xssi=t&gs_pcrt=2&hl=en-LK&authuser=0&psi=hK6sZYzUHYDe2roPpcaUsAI.1705815686325&dpr=1.5",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google",
+						"com"
+					],
+					"path": [
+						"complete",
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": null
+						},
+						{
+							"key": "cp",
+							"value": "0"
+						},
+						{
+							"key": "client",
+							"value": "gws-wiz"
+						},
+						{
+							"key": "xssi",
+							"value": "t"
+						},
+						{
+							"key": "gs_pcrt",
+							"value": "2"
+						},
+						{
+							"key": "hl",
+							"value": "en-LK"
+						},
+						{
+							"key": "authuser",
+							"value": "0"
+						},
+						{
+							"key": "psi",
+							"value": "hK6sZYzUHYDe2roPpcaUsAI.1705815686325"
+						},
+						{
+							"key": "dpr",
+							"value": "1.5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
 }
